@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Corgi Academy">
+    <output-path>$PROJECT_DIR$/out/artifacts/Corgi_Academy</output-path>
+    <root id="archive" name="Corgi Academy.jar">
+      <element id="module-output" name="Corgi Academy" />
+    </root>
+  </artifact>
+</component>

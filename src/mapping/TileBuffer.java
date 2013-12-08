@@ -17,7 +17,8 @@ public class TileBuffer {
     private double t;
     private boolean grid;
 
-    public TileBuffer(){
+    public TileBuffer(int blockSize){
+        this.blockSize=blockSize;
         map = new TileMap(10,8);
         map.setTileID(0,0,1);
         //map.defaultMap();

@@ -33,6 +33,8 @@ public class SpriteSheet {
 		frames = (hFrames*vFrames); //4x4 = 16 possible frames
 		spriteRect = new Rect(0,0,imgWidth,imgHeight); //this determines what frame of the sprite to show
 		destRect = new Rect(); //this is where that particular frame will be drawn
+
+        update(x,y);
 	}
 	public boolean animate(){ //forced animation
 		finished = false;

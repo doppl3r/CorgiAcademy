@@ -8,7 +8,9 @@ import java.util.LinkedList;
 public class DropDownButton {
     private int x;
     private int y;
+    private boolean active;
     LinkedList<Button> options;
+    private int currIndex;
 
     public DropDownButton(Textures tt, int x, int y){
         options = new LinkedList<Button>();
@@ -32,19 +34,23 @@ public class DropDownButton {
     public void move(int x, int y){
 
     }
-    public void up(int x, int y){
+    public boolean up(int x, int y){
         if (options.get(0).up(x,y)){
             for (int i = 1; i < options.size(); i++) options.get(i).reveal();
+            active = true;
         }
         else {
             //check button actions here
-            if (options.get(1).up(x,y)) System.out.println("hey1");
-            if (options.get(2).up(x,y)) System.out.println("hey2");
-            if (options.get(3).up(x,y)) System.out.println("hey3");
-            if (options.get(4).up(x,y)) System.out.println("hey4");
+            active = false;
+            if (options.get(1).up(x,y)) currIndex = 1;
+            if (options.get(2).up(x,y)) currIndex = 2;
+            if (options.get(3).up(x,y)) currIndex = 3;
+            if (options.get(4).up(x,y)) currIndex = 4;
+            options.getFirst().setImage(options.get(currIndex).getImage());
             for (int i = 1; i < options.size(); i++) options.get(i).hide();
 
         }
+        return active;
     }
     public void hover(int x, int y){
         for (int i=0; i < options.size(); i++){

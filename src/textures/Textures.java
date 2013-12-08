@@ -4,6 +4,7 @@ import javax.swing.ImageIcon;
 
 public class Textures {
     public Image overlay;
+    public Image corgi;
     public Image textures;
     public Image icon;
     public Image img_level1;
@@ -16,6 +17,7 @@ public class Textures {
     public Image buttonRIGHT;
     public Image buttonDOWN;
     public Image buttonLEFT;
+    public Image play;
 
     public Textures(){
 		addResources();
@@ -23,6 +25,7 @@ public class Textures {
 	public void addResources(){
         overlay = new ImageIcon(this.getClass().getResource("/graphics/overlay.png")).getImage();
         textures = new ImageIcon(this.getClass().getResource("/graphics/textures.png")).getImage();
+        corgi = new ImageIcon(this.getClass().getResource("/graphics/corgi.png")).getImage();
         icon = new ImageIcon(this.getClass().getResource("/gui/icon.png")).getImage();
         img_level1 = new ImageIcon(this.getClass().getResource("/gui/img_level1.png")).getImage();
         img_level2 = new ImageIcon(this.getClass().getResource("/gui/img_level2.png")).getImage();
@@ -34,5 +37,6 @@ public class Textures {
         buttonRIGHT = new ImageIcon(this.getClass().getResource("/gui/buttonRIGHT.png")).getImage();
         buttonDOWN = new ImageIcon(this.getClass().getResource("/gui/buttonDOWN.png")).getImage();
         buttonLEFT = new ImageIcon(this.getClass().getResource("/gui/buttonLEFT.png")).getImage();
+        play = new ImageIcon(this.getClass().getResource("/gui/play.png")).getImage();
     }
 }

@@ -15,6 +15,7 @@ public class Level {
     TileBuffer tileBuffer;
     int blockSize = 64;
     int currentOption = 0;
+    int newOption = 0;
     int limit = 0;
     private SpriteSheet terrain;
     private SpriteSheet overlay;

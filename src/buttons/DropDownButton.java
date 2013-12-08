@@ -62,4 +62,6 @@ public class DropDownButton {
         }
     }
     public int getCurrentIndex(){ return currIndex; }
+    public boolean isForLoop(){ return forLoop; }
+    public int getAmount(){ return amount; }
 }

@@ -10,14 +10,16 @@ public class Level1 extends Level {
             {1,1,1,1,1,2,1,1,1,1},
             {1,1,1,1,1,2,1,1,1,1},
             {1,1,1,1,1,2,1,1,1,1},
-            {1,2,2,2,2,3,1,1,1,1},
+            {1,2,2,3,2,3,1,1,1,1},
             {1,1,1,1,1,1,1,1,1,1},
             {1,1,1,1,1,1,1,1,1,1},
             {1,1,1,1,1,1,1,1,1,1}};
         setLevel(map);
-        options.add(new DropDownButton(Window.tt,532,121,4,true));
-        options.add(new DropDownButton(Window.tt,532,221,3,true));
+        //change these
+        options.add(new DropDownButton(Window.tt,532,121,2,false));
+        options.add(new DropDownButton(Window.tt,532,221,2,true));
         corgi.setPosition(1,4);
+        //don't change these
         gui = new SpriteSheet(Window.tt.img_level1,1,1,0);
         gui.update(420,100);
     }
@@ -26,11 +28,8 @@ public class Level1 extends Level {
         double yDir = 0;
         double speed = 2;
 
-
         if (playLevel()){
             //option 1
-            System.out.println(tileBuffer.getMap().getTile((int)(corgi.getY()/blockSize),
-                (int)(corgi.getX()/blockSize)).getID());
             switch (options.get(currentOption).getCurrentIndex()){
                 case(1): xDir = 0; yDir = -speed; break; //up
                 case(2): xDir =  speed; yDir = 0; break; //right
@@ -39,33 +38,69 @@ public class Level1 extends Level {
             }
             //while loop
             if (tileBuffer.getMap().getTile((int)((corgi.getY())/blockSize),
-                    (int)((corgi.getX())/blockSize)).getID() != 1 &&
+                (int)((corgi.getX())/blockSize)).getID() != 1 &&
                 tileBuffer.getMap().getTile((int)((corgi.getY()+63)/blockSize),
-                    (int)((corgi.getX()+63)/blockSize)).getID() != 1){
-                    //limit--;
-                    //System.out.println(limit);
-                    if (limit >= 0){
+                (int)((corgi.getX()+63)/blockSize)).getID() != 1){
+
+                if (options.get(currentOption).isForLoop()){
+                    limit--;
+                    if (limit <= 0){
+                        if (currentOption == newOption){  //set limit
+                            limit=(int)((options.get(currentOption)
+                                    .getAmount()*blockSize)/speed);
+                            newOption = currentOption + 1;
+                        }
+                        else { //if the limit is reached
+                            corgi.x = ((corgi.x+(blockSize/2))/blockSize)*blockSize;
+                            corgi.y = ((corgi.y+(blockSize/2))/blockSize)*blockSize;
+                            if (currentOption < options.size()-1) currentOption++;
+                            else{
+                                if (tileBuffer.getMap().getTile((int)((corgi.getY())/blockSize),
+                                        (int)((corgi.getX())/blockSize)).getID() == 3 &&
+                                        tileBuffer.getMap().getTile((int)((corgi.getY()+63)/blockSize),
+                                                (int)((corgi.getX()+63)/blockSize)).getID() == 3){
+                                    if (currentOption == options.size()-1){
+                                        System.out.println("ChangeLevel");
+                                    }
+                                }
+                                setPlayLevel(false);
+                                currentOption = newOption = 0;
+                            }
+                        }
+                    }
+                    else { //keep moving if the limit is greater than zero
                         corgi.x += xDir;
                         corgi.y += yDir;
                         corgi.sprite.update(corgi.x,corgi.y);
                     }
-                    else{
-                        //setPlayLevel(false);
-                        if (currentOption < 1) currentOption++;
-                        else{ setPlayLevel(false); currentOption = 0; }
-                        corgi.x = ((corgi.x+(blockSize/2))/blockSize)*blockSize;
-                        corgi.y = ((corgi.y+(blockSize/2))/blockSize)*blockSize;
-                    }
+                }
+                else {
+                    corgi.x += xDir;
+                    corgi.y += yDir;
+                    corgi.sprite.update(corgi.x,corgi.y);
+                }
             }
             else{
                 //setPlayLevel(false);
-                if (currentOption < 1) currentOption++;
-                else{ setPlayLevel(false); currentOption = 0; }
                 corgi.x = ((corgi.x+(blockSize/2))/blockSize)*blockSize;
                 corgi.y = ((corgi.y+(blockSize/2))/blockSize)*blockSize;
+                limit = 0;
+                if (currentOption < options.size()-1){
+                    currentOption++;
+                    newOption = currentOption;
+                }
+                else{
+                    if (tileBuffer.getMap().getTile((int)((corgi.getY())/blockSize),
+                            (int)((corgi.getX())/blockSize)).getID() == 3 &&
+                            tileBuffer.getMap().getTile((int)((corgi.getY()+63)/blockSize),
+                                    (int)((corgi.getX()+63)/blockSize)).getID() == 3){
+                        if (currentOption == options.size()-1){
+                            System.out.println("ChangeLevel");
+                        }
+                    }
+                    setPlayLevel(false); currentOption = newOption = 0;
+                }
             }
-            //option 2
-
         }
     }
 }

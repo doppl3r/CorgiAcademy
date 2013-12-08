@@ -67,11 +67,11 @@
     <file path="/FileBrowser.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385081676614" ignored="false" />
     <file path="/a.dummy" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1384631825194" ignored="false" />
     <file path="/EditorMain.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1384626789192" ignored="false" />
-    <file path="/Level.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386486748227" ignored="false" />
+    <file path="/Level.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386488796033" ignored="false" />
     <file path="/LevelHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386467301251" ignored="false" />
     <file path="/README.md" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385160873496" ignored="false" />
-    <file path="/DropDownButton.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386487023926" ignored="false" />
-    <file path="/Level1.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386486890406" ignored="false" />
+    <file path="/DropDownButton.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386487991412" ignored="false" />
+    <file path="/Level1.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386491716814" ignored="false" />
     <file path="/Corgi.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386485456207" ignored="false" />
     <file path="/Path.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386478953250" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -165,7 +165,7 @@
       <file leaf-file-name="Level1.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Level1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="32" selection-start="1808" selection-end="1808" vertical-scroll-proportion="1.0869565">
+            <state line="12" column="24" selection-start="328" selection-end="328" vertical-scroll-proportion="0.01058201">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,7 +176,7 @@
       <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="29" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
+            <state line="18" column="11" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,7 +198,7 @@
       <file leaf-file-name="DropDownButton.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/buttons/DropDownButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
+            <state line="65" column="52" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,8 +229,8 @@
         <option value="$PROJECT_DIR$/src/textures/Textures.java" />
         <option value="$PROJECT_DIR$/src/Path.java" />
         <option value="$PROJECT_DIR$/src/Corgi.java" />
-        <option value="$PROJECT_DIR$/src/Level.java" />
         <option value="$PROJECT_DIR$/src/buttons/DropDownButton.java" />
+        <option value="$PROJECT_DIR$/src/Level.java" />
         <option value="$PROJECT_DIR$/src/Level1.java" />
       </list>
     </option>
@@ -789,24 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/buttons/DropDownButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="29" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/gui/img_level3.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -821,9 +803,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/buttons/DropDownButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="52" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Level1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="32" selection-start="1808" selection-end="1808" vertical-scroll-proportion="1.0869565">
+        <state line="12" column="24" selection-start="328" selection-end="328" vertical-scroll-proportion="0.01058201">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

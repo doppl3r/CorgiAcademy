@@ -2,10 +2,10 @@ import textures.SpriteSheet;
 import java.awt.*;
 
 public class Corgi {
-    private int x;
-    private int y;
-    private int blockSize;
-    private SpriteSheet sprite;
+    int x;
+    int y;
+    int blockSize;
+    SpriteSheet sprite;
 
     public Corgi(int blockSize){
         this.blockSize=blockSize;
@@ -17,10 +17,10 @@ public class Corgi {
         sprite.draw(g);
     }
     public void update(double mod){
-
-    }
-    public void play(){
-
+        //if (x < path.getCurrentX()) x++;
+        x+=1;
+        System.out.println(x);
+        sprite.update(x,y);
     }
     public void setXY(int x, int y){
         this.x=x;

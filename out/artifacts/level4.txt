@@ -6,4 +6,4 @@
 01020202020201010101
 01020202020201010101
 01010101010101010101
-texture[0202]=C:\Users\doppler\Desktop\textures.png
+texture[0202]=C:\Users\deben_000\IdeaProjects\CorgiAcademy\out\artifacts\textures.png

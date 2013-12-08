@@ -12,8 +12,10 @@ public class Level {
     LinkedList<DropDownButton> options;
     Button play;
     Corgi corgi;
-    private int blockSize = 64;
-    private TileBuffer tileBuffer;
+    TileBuffer tileBuffer;
+    int blockSize = 64;
+    int currentOption = 0;
+    int limit = 0;
     private SpriteSheet terrain;
     private SpriteSheet overlay;
     private boolean playLevel;
@@ -58,9 +60,10 @@ public class Level {
     public void up(int x, int y){
         for (int i=0; i < options.size(); i++){
             options.get(i).up(x, y);
-            corgi.play();
         }
-        if (play.up(x,y)) playLevel = true;
+        if (play.up(x,y)){
+            playLevel = true;
+        }
     }
     public void hover(int x, int y){
         for (int i=0; i < options.size(); i++){

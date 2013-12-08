@@ -16,21 +16,25 @@ public class Button {
 	private double xSize;
 	private double ySize;
 	private double padding;
+    private int currentFrame;
 
-	public Button(Image newImage, int x, int y, int hFrames, int vFrames, boolean center){
+	public Button(Image newImage, int x, int y, int hFrames, int vFrames,
+            boolean center, int currentFrame){
 		SpriteSheet newSprite = new SpriteSheet(newImage, hFrames, vFrames, 0.0);
 		this.x=x;
 		this.y=y;
 		this.center=center;
+        this.currentFrame=currentFrame;
         font = new Font("Arial", Font.PLAIN, 10);
 		sprite = new SpriteSheet(newSprite.getImage(), 
 				newSprite.getHFrames(), newSprite.getVFrames(), newSprite.getRate());
-		xSize = sprite.getImageWidth();
-		ySize = sprite.getImageHeight();
+		xSize = sprite.getSpriteWidth();
+		ySize = sprite.getSpriteHeight();
 		if (center) sprite.center();
 		sprite.update(x, y);
+        sprite.animate(currentFrame);
 		padding=0;
-        hint = "Button";
+        hint = "";
 	}
 	public void draw(Graphics2D g){
 		if (!hide) sprite.draw(g);
@@ -57,14 +61,14 @@ public class Button {
 			if (center){
 				if (Math.abs(x1-x) < ((xSize/2)+padding) && Math.abs(y1-y) < ((ySize/2)+padding)){
 					pressed = true;
-					sprite.animate(1, 0);
-				} else { pressed = false; sprite.animate(0, 0); }
+					sprite.animate(1+currentFrame, 0+currentFrame);
+				} else { pressed = false; sprite.animate(0+currentFrame, 0+currentFrame); }
 			}
 			else{
 				if (Math.abs(x1-x-(xSize/2)) < ((xSize/2)+padding) && Math.abs(y1-y-(ySize/2)) < ((ySize/2)+padding)){
 					pressed = true;
-					sprite.animate(1, 0);
-				} else { pressed = false; sprite.animate(0, 0); }
+					sprite.animate(1+currentFrame, 0+currentFrame);
+				} else { pressed = false; sprite.animate(0+currentFrame, 0+currentFrame); }
 			}
 		}
 		return pressed;
@@ -75,7 +79,7 @@ public class Button {
 	}
 	public boolean up(int x1, int y1){ 
 		if (pressed && !hide){
-			sprite.animate(0, 0);
+			sprite.animate(0+currentFrame, 0+currentFrame);
 			pressed = false;
 			return true;
 		}

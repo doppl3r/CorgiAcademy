@@ -16,17 +16,21 @@ public class LevelHandler {
     }
     public void initLevels(){
         //level 1
-        int[][] map=
-                {{1,1,1,1,1,1,1,1,1,1},
-                        {1,1,1,1,1,1,1,1,1,1},
-                        {1,1,2,2,2,2,2,1,1,1},
-                        {1,1,1,1,1,1,2,1,1,1},
-                        {1,1,1,1,1,1,2,1,1,1},
-                        {1,1,1,1,1,1,3,1,1,1},
-                        {1,1,1,1,1,1,1,1,1,1},
-                        {1,1,1,1,1,1,1,1,1,1}};
-        levels.add(new Level());
-        levels.get(levels.size()-1).setLevel(map);
-        //level 2
+        levels.add(new Level1());
+    }
+
+
+
+    public void down(int x, int y){
+        levels.get(currentLevel).down(x,y);
+    }
+    public void move(int x, int y){
+        levels.get(currentLevel).move(x,y);
+    }
+    public void up(int x, int y){
+        levels.get(currentLevel).up(x,y);
+    }
+    public void hover(int x, int y){
+        levels.get(currentLevel).hover(x,y);
     }
 }

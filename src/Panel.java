@@ -27,7 +27,6 @@ public class Panel extends JPanel implements KeyListener,
     private Font font;
     BufferedImage buffered;
     public Game game;
-    public GUI gui;
 	private Timer t;
 	
 	public Panel(){
@@ -35,7 +34,6 @@ public class Panel extends JPanel implements KeyListener,
         pixelsPerSecond = 100; //very important for computer speed vs. graphic speed
         font = new Font ("Arial", Font.BOLD, 18);
         game = new Game();
-        gui = new GUI();
 
         //start music
         //AudioHandler.THEME.clip.loop(-1);
@@ -74,7 +72,6 @@ public class Panel extends JPanel implements KeyListener,
                 case(1): game.draw(g); break;
             }
         }
-        gui.draw(g);
         updateFPS(); //updatesfps after drawn completely
 	}
 	public void update(double mod){
@@ -85,7 +82,6 @@ public class Panel extends JPanel implements KeyListener,
                 case(1): game.update(mod); break;
             }
         }
-        gui.update();
 	}
 	//key bindings
 	public void keyPressed(KeyEvent e) {
@@ -121,23 +117,23 @@ public class Panel extends JPanel implements KeyListener,
     public void mousePressed(MouseEvent e) { //down
         int x = e.getX();
         int y = e.getY();
-        gui.down(x,y);
+        game.down(x,y);
     }
     public void mouseDragged(MouseEvent e) { //move
         int x = e.getX();
         int y = e.getY();
-        gui.move(x,y);
+        game.move(x,y);
     }
     public void mouseReleased(MouseEvent e) { //up
         int x = e.getX();
         int y = e.getY();
-        gui.up(x,y);
+        game.up(x,y);
     }
-    public void mouseMoved(MouseEvent e) {
+    public void mouseMoved(MouseEvent e) { //hover
         //update cursor
         int x = e.getX();
         int y = e.getY();
-        gui.hover(x,y);
+        game.hover(x,y);
     }
     //update FPS
     public void updateFPS() {

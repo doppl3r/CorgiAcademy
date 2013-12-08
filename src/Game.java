@@ -2,17 +2,38 @@ import java.awt.*;
 
 public class Game {
     private boolean gameOver;
-    private LevelHandler world;
+    private LevelHandler levels;
+    public GUI gui;
     //public EnemyHandler enemies;
 
     public Game(){
-        world = new LevelHandler();
+        levels = new LevelHandler();
+        gui = new GUI();
     }
     public void draw(Graphics2D g){
-        world.draw(g);
+        levels.draw(g);
+        gui.draw(g);
     }
     public void update(double mod){
-        world.update(mod);
+        levels.update(mod);
+        gui.update(mod);
+    }
+    //mouse input
+    public void down(int x, int y){
+        levels.down(x,y);
+        gui.down(x,y);
+    }
+    public void move(int x, int y){
+        levels.move(x,y);
+        gui.move(x,y);
+    }
+    public void up(int x, int y){
+        levels.up(x,y);
+        gui.up(x,y);
+    }
+    public void hover(int x, int y){
+        levels.hover(x,y);
+        gui.hover(x,y);
     }
 
     //key pressed

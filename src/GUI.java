@@ -1,4 +1,5 @@
 import buttons.Button;
+import buttons.DropDownButton;
 
 import java.awt.*;
 
@@ -14,7 +15,7 @@ public class GUI {
             g.drawLine(0,30,Window.getWidth(),30);
         }*/
     }
-    public void update(){}
+    public void update(double mod){}
     public void down(int x1, int y1){
 
     }

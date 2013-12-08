@@ -24,6 +24,8 @@ public class Panel extends JPanel implements KeyListener,
     private int frameSamplesCollected = 0;
     private int frameSampleTime = 0;
     private int fps = 0;
+    private int hoverX;
+    private int hoverY;
     private Font font;
     BufferedImage buffered;
     public Game game;
@@ -64,7 +66,7 @@ public class Panel extends JPanel implements KeyListener,
         super.paintComponent(g);
         setBackground(new Color(43,43,43));
         //draw components
-        g.drawString("fps: "+fps,4,16);
+        //g.drawString("fps: "+fps,4,16);
         //draw components
         if (!paused){
             switch(panelState){
@@ -73,6 +75,7 @@ public class Panel extends JPanel implements KeyListener,
             }
         }
         updateFPS(); //updatesfps after drawn completely
+        g.drawString("x: "+hoverX+", y: "+hoverY,4,16);
 	}
 	public void update(double mod){
 		//update the components
@@ -133,6 +136,8 @@ public class Panel extends JPanel implements KeyListener,
         //update cursor
         int x = e.getX();
         int y = e.getY();
+        hoverX=x;
+        hoverY=y;
         game.hover(x,y);
     }
     //update FPS

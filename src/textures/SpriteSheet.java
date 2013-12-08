@@ -173,7 +173,7 @@ public class SpriteSheet {
     } //0 to 99 digits
 
 	public void setImage(Image image){
-       // this.image = null;
+        //this.image = null;
         this.image = image;
     }
 	public Image getImage(){ return image; }

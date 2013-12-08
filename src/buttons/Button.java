@@ -105,6 +105,8 @@ public class Button {
 		this.y=y;
 		sprite.update(x, y); 
 	}
+    public void setImage(Image img){ sprite.setImage(img); }
+    public Image getImage(){ return sprite.getImage(); }
 	public boolean isPressed(){ return pressed; }
 	public double getX(){ return x; }
 	public double getY(){ return y; }

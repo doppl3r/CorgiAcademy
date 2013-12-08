@@ -3,6 +3,7 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 
 public class Textures {
+    public Image overlay;
     public Image textures;
     public Image icon;
     public Image img_level1;
@@ -20,6 +21,7 @@ public class Textures {
 		addResources();
 	}
 	public void addResources(){
+        overlay = new ImageIcon(this.getClass().getResource("/graphics/overlay.png")).getImage();
         textures = new ImageIcon(this.getClass().getResource("/graphics/textures.png")).getImage();
         icon = new ImageIcon(this.getClass().getResource("/gui/icon.png")).getImage();
         img_level1 = new ImageIcon(this.getClass().getResource("/gui/img_level1.png")).getImage();

@@ -18,6 +18,8 @@ public class Textures {
     public Image buttonDOWN;
     public Image buttonLEFT;
     public Image play;
+    public Image next;
+    public Image reset;
 
     public Textures(){
 		addResources();
@@ -38,5 +40,7 @@ public class Textures {
         buttonDOWN = new ImageIcon(this.getClass().getResource("/gui/buttonDOWN.png")).getImage();
         buttonLEFT = new ImageIcon(this.getClass().getResource("/gui/buttonLEFT.png")).getImage();
         play = new ImageIcon(this.getClass().getResource("/gui/play.png")).getImage();
+        next = new ImageIcon(this.getClass().getResource("/gui/next.png")).getImage();
+        reset = new ImageIcon(this.getClass().getResource("/gui/reset.png")).getImage();
     }
 }

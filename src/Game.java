@@ -2,7 +2,7 @@ import java.awt.*;
 
 public class Game {
     private boolean gameOver;
-    private LevelHandler levels;
+    LevelHandler levels;
     public GUI gui;
     //public EnemyHandler enemies;
 

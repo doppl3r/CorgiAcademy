@@ -74,8 +74,8 @@ public class Panel extends JPanel implements KeyListener,
                 case(1): game.draw(g); break;
             }
         }
-        updateFPS(); //updatesfps after drawn completely
-        g.drawString("x: "+hoverX+", y: "+hoverY,4,16);
+        //updateFPS(); //updatesfps after drawn completely
+        //g.drawString("x: "+hoverX+", y: "+hoverY,4,16);
 	}
 	public void update(double mod){
 		//update the components

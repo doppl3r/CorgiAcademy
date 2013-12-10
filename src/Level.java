@@ -91,6 +91,9 @@ public class Level {
                                         Window.panel.game.levels.nextLevel();
                                     }
                                 }
+                                else{
+                                    corgi.reset();
+                                }
                                 setPlayLevel(false);
                                 currentOption = newOption = 0;
                             }
@@ -125,6 +128,9 @@ public class Level {
                         if (currentOption == options.size()-1){
                             Window.panel.game.levels.nextLevel();
                         }
+                    }
+                    else{
+                        corgi.reset();
                     }
                     setPlayLevel(false); currentOption = newOption = 0;
                 }

@@ -67,12 +67,12 @@
     <file path="/FileBrowser.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385081676614" ignored="false" />
     <file path="/a.dummy" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1384631825194" ignored="false" />
     <file path="/EditorMain.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1384626789192" ignored="false" />
-    <file path="/Level.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386619454642" ignored="false" />
+    <file path="/Level.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386641670125" ignored="false" />
     <file path="/LevelHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386622535431" ignored="false" />
     <file path="/README.md" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385160873496" ignored="false" />
     <file path="/DropDownButton.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386608275568" ignored="false" />
     <file path="/Level1.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386491716814" ignored="false" />
-    <file path="/Corgi.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386485456207" ignored="false" />
+    <file path="/Corgi.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386640156548" ignored="false" />
     <file path="/Path.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386478953250" ignored="false" />
     <file path="/Level2.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386608048931" ignored="false" />
     <file path="/a.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386609735486" ignored="false" />
@@ -160,16 +160,16 @@
       <file leaf-file-name="LevelHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LevelHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="2" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+            <state line="15" column="111" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="16" selection-start="5576" selection-end="5576" vertical-scroll-proportion="0.0">
+            <state line="30" column="75" selection-start="767" selection-end="767" vertical-scroll-proportion="0.5011136">
               <folding />
             </state>
           </provider>
@@ -184,11 +184,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level5.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Level5.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Level5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="3" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.505618">
+            <state line="26" column="23" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level3.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Level3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="5" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,7 +207,7 @@
       <file leaf-file-name="Level2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Level2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="530" selection-end="570" vertical-scroll-proportion="0.0">
+            <state line="23" column="46" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,16 +216,7 @@
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="79" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Panel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Panel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="0" selection-start="4458" selection-end="4458" vertical-scroll-proportion="0.0">
+            <state line="10" column="90" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,7 +225,7 @@
       <file leaf-file-name="Corgi.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Corgi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="18" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+            <state line="43" column="27" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -253,17 +255,17 @@
         <option value="$PROJECT_DIR$/src/textures/SpriteSheet.java" />
         <option value="$PROJECT_DIR$/src/mapping/TileBuffer.java" />
         <option value="$PROJECT_DIR$/src/Path.java" />
-        <option value="$PROJECT_DIR$/src/Corgi.java" />
         <option value="$PROJECT_DIR$/src/textures/Textures.java" />
         <option value="$PROJECT_DIR$/src/buttons/DropDownButton.java" />
         <option value="$PROJECT_DIR$/src/Level2.java" />
         <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/Level1.java" />
-        <option value="$PROJECT_DIR$/src/Level.java" />
-        <option value="$PROJECT_DIR$/src/Level3.java" />
         <option value="$PROJECT_DIR$/src/Level4.java" />
-        <option value="$PROJECT_DIR$/src/LevelHandler.java" />
         <option value="$PROJECT_DIR$/src/Level5.java" />
+        <option value="$PROJECT_DIR$/src/Level3.java" />
+        <option value="$PROJECT_DIR$/src/LevelHandler.java" />
+        <option value="$PROJECT_DIR$/src/Corgi.java" />
+        <option value="$PROJECT_DIR$/src/Level.java" />
       </list>
     </option>
   </component>
@@ -272,7 +274,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="640" />
+    <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -363,6 +365,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Corgi Academy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CorgiAcademy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,7 +605,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="640" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -602,8 +622,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7303754" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2912458" sideWeight="0.5764526" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4235474" sideWeight="0.49199572" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14019449" sideWeight="0.764526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.235474" sideWeight="0.49199572" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -698,41 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Corgi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/gui/img_level5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="79" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="120" selection-start="476" selection-end="476" vertical-scroll-proportion="0.22392638">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/buttons/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="52" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/gui/img_level4.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -748,13 +733,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="16" selection-start="5576" selection-end="5576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Level4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="5" selection-start="1141" selection-end="1141" vertical-scroll-proportion="1.3343558">
@@ -762,23 +740,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/Level3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+        <state line="34" column="5" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/gui/img_level5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="90" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Level2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="530" selection-end="570" vertical-scroll-proportion="0.0">
+        <state line="23" column="46" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Level5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.505618">
+        <state line="26" column="23" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corgi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="27" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LevelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="111" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/buttons/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="52" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="75" selection-start="767" selection-end="767" vertical-scroll-proportion="0.5011136">
           <folding />
         </state>
       </provider>

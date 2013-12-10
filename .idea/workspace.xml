@@ -157,19 +157,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LevelHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LevelHandler.java">
+      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="111" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+            <state line="108" column="43" selection-start="4329" selection-end="4329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Level.java">
+      <file leaf-file-name="Level4.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Level4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="75" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+            <state line="14" column="21" selection-start="419" selection-end="419" vertical-scroll-proportion="0.4131356">
               <folding />
             </state>
           </provider>
@@ -184,10 +184,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Panel.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Panel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="33" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.24358974">
+            <state line="72" column="45" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,54 +196,7 @@
       <file leaf-file-name="Level5.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Level5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="23" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level3.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Level3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="5" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Level2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="46" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="90" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Corgi.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Corgi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="27" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropDownButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/buttons/DropDownButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="50" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+            <state line="29" column="49" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -268,13 +221,13 @@
         <option value="$PROJECT_DIR$/src/Level2.java" />
         <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/Level1.java" />
-        <option value="$PROJECT_DIR$/src/Level4.java" />
         <option value="$PROJECT_DIR$/src/Level5.java" />
         <option value="$PROJECT_DIR$/src/Level3.java" />
         <option value="$PROJECT_DIR$/src/LevelHandler.java" />
         <option value="$PROJECT_DIR$/src/Corgi.java" />
         <option value="$PROJECT_DIR$/src/Level.java" />
         <option value="$PROJECT_DIR$/src/Panel.java" />
+        <option value="$PROJECT_DIR$/src/Level4.java" />
       </list>
     </option>
   </component>
@@ -282,9 +235,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="640" />
     <option name="y" value="22" />
-    <option name="width" value="640" />
+    <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -615,7 +567,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="640" y="22" width="640" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -632,7 +584,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7303754" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2912458" sideWeight="0.764526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14019449" sideWeight="0.764526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.235474" sideWeight="0.49199572" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -705,56 +657,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/textures/Textures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="10" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/buttons/DropDownButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="50" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/gui/img_level4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/gui/img_level3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/gui/img_level2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="1141" selection-end="1141" vertical-scroll-proportion="1.3343558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/gui/img_level5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
@@ -767,13 +674,6 @@
     <entry file="file://$PROJECT_DIR$/src/Level2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="46" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -799,16 +699,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level.java">
+    <entry file="file://$PROJECT_DIR$/src/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="75" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+        <state line="72" column="45" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Panel.java">
+    <entry file="file://$PROJECT_DIR$/src/Level5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="33" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.24358974">
+        <state line="29" column="49" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Level3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="5" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.6923077">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/gui/img_level3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/gui/img_level2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/gui/img_level1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/gui/img_level5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/gui/img_level4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="43" selection-start="4329" selection-end="4329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Level4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="419" selection-end="419" vertical-scroll-proportion="0.4131356">
           <folding />
         </state>
       </provider>

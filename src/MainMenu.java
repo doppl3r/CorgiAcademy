@@ -9,7 +9,7 @@ public class MainMenu {
     private int minFade;
     private int maxFade;
     private int alphaType;
-    private int currentMenu = 1; //0=start, 1=end
+    private int currentMenu = 0; //0=start, 1=end
     private boolean fadeOut;
 
     private SpriteSheet start_img;

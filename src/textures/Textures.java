@@ -4,7 +4,7 @@ import javax.swing.ImageIcon;
 
 public class Textures {
     public Image start_img;
-    public Image start_button;
+    public Image play_button;
     public Image back_button;
     public Image gameOver;
 
@@ -31,7 +31,7 @@ public class Textures {
 	}
 	public void addResources(){
         start_img = new ImageIcon(this.getClass().getResource("/gui/start_img.png")).getImage();
-        start_button = new ImageIcon(this.getClass().getResource("/gui/start_button.png")).getImage();
+        play_button = new ImageIcon(this.getClass().getResource("/gui/play_button.png")).getImage();
         back_button = new ImageIcon(this.getClass().getResource("/gui/back_button.png")).getImage();
         gameOver = new ImageIcon(this.getClass().getResource("/gui/gameOver.png")).getImage();
 

@@ -88,11 +88,12 @@ public class Level {
                                         tileBuffer.getMap().getTile(((corgi.getY()+63)/blockSize),
                                                 ((corgi.getX()+63)/blockSize)).getID() == 3){
                                     if (currentOption == options.size()-1){
+                                        corgi.resetPosition(); //reset for later if they want to play again
                                         Window.panel.game.levels.nextLevel();
                                     }
                                 }
                                 else{
-                                    corgi.reset();
+                                    corgi.resetPosition();
                                 }
                                 setPlayLevel(false);
                                 currentOption = newOption = 0;
@@ -126,11 +127,12 @@ public class Level {
                             tileBuffer.getMap().getTile(((corgi.getY()+63)/blockSize),
                                     ((corgi.getX()+63)/blockSize)).getID() == 3){
                         if (currentOption == options.size()-1){
+                            corgi.resetPosition(); //reset for later if they want to play again
                             Window.panel.game.levels.nextLevel();
                         }
                     }
                     else{
-                        corgi.reset();
+                        corgi.resetPosition();
                     }
                     setPlayLevel(false); currentOption = newOption = 0;
                 }
@@ -151,7 +153,7 @@ public class Level {
         play.move(x,y);
     }
     public void up(int x, int y){
-        int tempIndex = 0;
+        int tempIndex;
         for (int i=0; i < options.size(); i++){
             options.get(i).up(x, y);
             tempIndex = options.get(i).getCurrentIndex()-1;
@@ -199,5 +201,8 @@ public class Level {
         public void setString(String name){
             this.name = name;
         }
+    }
+    public void reset(){
+        corgi.resetPosition();
     }
 }

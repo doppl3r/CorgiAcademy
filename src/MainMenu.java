@@ -9,7 +9,7 @@ public class MainMenu {
     private int minFade;
     private int maxFade;
     private int alphaType;
-    private int currentMenu; //0=start, 1=end
+    private int currentMenu = 1; //0=start, 1=end
     private boolean fadeOut;
 
     private SpriteSheet start_img;
@@ -24,7 +24,7 @@ public class MainMenu {
         alphaType = AlphaComposite.SRC_OVER;
 
         start_button = new Button(Window.tt.start_button,50,50,1,2,false,0);
-        back_button  = new Button(Window.tt.start_button,256,360,1,2,false,0);
+        back_button  = new Button(Window.tt.back_button,256,360,1,2,false,0);
         start_img = new SpriteSheet(Window.tt.start_img,1,1,0);
         gameOver = new SpriteSheet(Window.tt.gameOver,1,1,0);
         gameOver.update(192,64); //center game over
@@ -77,12 +77,14 @@ public class MainMenu {
             case(0):
                 if (start_button.up(x,y)) {
                     //do something
+                    currentMenu = 1;
                     Window.panel.setPanelState(1); //play game
                 }
             break;
             case(1):
                 if (back_button.up(x,y)) {
                     //do something
+                    currentMenu = 0;
                     Window.panel.setPanelState(0); //go back to main menu
                 }
             break;

@@ -4,7 +4,7 @@ import java.awt.*;
 public class LevelHandler {
     private boolean gameComplete = false;
     private LinkedList<Level> levels;
-    private int currentLevel = 4;
+    private int currentLevel = 0;
     public LevelHandler(){
         levels = new LinkedList<Level>();
         initLevels();
@@ -44,9 +44,9 @@ public class LevelHandler {
             currentLevel++;
         }
         else{
+            currentLevel = 0; //resets level
             gameComplete = true;
             Window.panel.setPanelState(0);
-            Window.panel.menu.setCurrentMenu(1);
         }
     }
 }

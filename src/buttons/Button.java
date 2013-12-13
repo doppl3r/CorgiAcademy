@@ -1,6 +1,7 @@
 package buttons;
 import java.awt.*;
 
+import audio.AudioHandler;
 import textures.SpriteSheet;
 
 public class Button {
@@ -77,7 +78,7 @@ public class Button {
 		if (!hide) down(x1, y1);
 		return pressed;
 	}
-	public boolean up(int x1, int y1){ 
+	public boolean up(int x1, int y1){
 		if (pressed && !hide){
 			sprite.animate(0+currentFrame, 0+currentFrame);
 			pressed = false;

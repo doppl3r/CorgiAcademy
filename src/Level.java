@@ -1,3 +1,4 @@
+import audio.AudioHandler;
 import buttons.DropDownButton;
 import buttons.Button;
 import mapping.TileBuffer;
@@ -94,6 +95,7 @@ public class Level {
                                 }
                                 else{
                                     corgi.resetPosition();
+                                    AudioHandler.ERROR.play();
                                 }
                                 setPlayLevel(false);
                                 currentOption = newOption = 0;
@@ -133,6 +135,7 @@ public class Level {
                     }
                     else{
                         corgi.resetPosition();
+                        AudioHandler.ERROR.play();
                     }
                     setPlayLevel(false); currentOption = newOption = 0;
                 }
@@ -168,6 +171,7 @@ public class Level {
         }
         if (play.up(x,y)){
             playLevel = true;
+            AudioHandler.SELECT.play();
         }
     }
     public void hover(int x, int y){

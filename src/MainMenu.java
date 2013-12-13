@@ -1,3 +1,4 @@
+import audio.AudioHandler;
 import textures.SpriteSheet;
 import buttons.Button;
 
@@ -78,6 +79,7 @@ public class MainMenu {
                 if (play_button.up(x,y)) {
                     //do something
                     currentMenu = 1;
+                    AudioHandler.SELECT.play();
                     Window.panel.setPanelState(1); //play game
                 }
             break;
@@ -85,6 +87,7 @@ public class MainMenu {
                 if (back_button.up(x,y)) {
                     //do something
                     currentMenu = 0;
+                    AudioHandler.SELECT.play();
                     Window.panel.setPanelState(0); //go back to main menu
                 }
             break;

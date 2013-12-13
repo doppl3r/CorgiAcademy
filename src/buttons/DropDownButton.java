@@ -1,5 +1,6 @@
 package buttons;
 
+import audio.AudioHandler;
 import textures.Textures;
 
 import java.awt.*;
@@ -41,6 +42,7 @@ public class DropDownButton {
     public boolean up(int x, int y){
         if (options.get(0).up(x,y)){
             for (int i = 1; i < options.size(); i++) options.get(i).reveal();
+            AudioHandler.SELECT.play();
             active = true;
         }
         else {

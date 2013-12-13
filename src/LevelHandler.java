@@ -1,3 +1,4 @@
+import audio.AudioHandler;
 import java.util.LinkedList;
 import java.awt.*;
 
@@ -41,10 +42,12 @@ public class LevelHandler {
     public void nextLevel(){
         if(currentLevel < levels.size()-1){
             currentLevel++;
+            AudioHandler.GOAL.play();
         }
         else{
             currentLevel = 0; //resets level
             gameComplete = true;
+            AudioHandler.WIN.play();
             Window.panel.setPanelState(0);
         }
     }

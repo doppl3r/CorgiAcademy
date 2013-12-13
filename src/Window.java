@@ -1,9 +1,7 @@
-
 import textures.Textures;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
+import audio.*;
 
 public class Window {
     static JFrame jf;

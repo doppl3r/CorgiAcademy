@@ -12,25 +12,25 @@
     <file path="/fragment.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386463130513" ignored="false" />
     <file path="/Textures.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386905397543" ignored="false" />
     <file path="/Game.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386467247017" ignored="false" />
-    <file path="/Panel.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386903906861" ignored="false" />
+    <file path="/Panel.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386927658318" ignored="false" />
     <file path="/GUI.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386463967009" ignored="false" />
     <file path="/pixel.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1377988916758" ignored="false" />
     <file path="/Unit.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1377989476617" ignored="false" />
     <file path="/Player.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1382135598975" ignored="false" />
     <file path="/Ship.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1379209137544" ignored="false" />
-    <file path="/Window.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385160692255" ignored="false" />
+    <file path="/Window.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386927529981" ignored="false" />
     <file path="/Bullets.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1379974488604" ignored="false" />
     <file path="/Enemy.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1381725797918" ignored="false" />
     <file path="/Enemy1.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1380572556361" ignored="false" />
     <file path="/EnemyHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1381725914166" ignored="false" />
     <file path="/PathNodes.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1379022824203" ignored="false" />
     <file path="/ShipEditor.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1379207472687" ignored="false" />
-    <file path="/AudioHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1379120638802" ignored="false" />
+    <file path="/AudioHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386928528240" ignored="false" />
     <file path="/Background.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1380575290196" ignored="false" />
     <file path="/SpriteSheet.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386475987305" ignored="false" />
     <file path="/Particles.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1378151406472" ignored="false" />
     <file path="/WaveHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1379211846361" ignored="false" />
-    <file path="/Button.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386469380730" ignored="false" />
+    <file path="/Button.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386927939371" ignored="false" />
     <file path="/Enemy2.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1379126640763" ignored="false" />
     <file path="/a.groovy" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1378169763908" ignored="false" />
     <file path="/a.html" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1378169766752" ignored="false" />
@@ -43,7 +43,7 @@
     <file path="/MainMenu.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386907711925" ignored="false" />
     <file path="/Blood.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1381723041390" ignored="false" />
     <file path="/.name" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385155777864" ignored="false" />
-    <file path="/Dummy.txt" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1384645329937" ignored="false" />
+    <file path="/Dummy.txt" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386927190514" ignored="false" />
     <file path="$PROJECT_DIR$/../Virga/gen/pack/virga/main/BuildConfig.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1381786889019" ignored="false" />
     <file path="/LevelWindow.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1382756093980" ignored="false" />
     <file path="/LevelPanel.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1382754021007" ignored="false" />
@@ -67,10 +67,10 @@
     <file path="/FileBrowser.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385081676614" ignored="false" />
     <file path="/a.dummy" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1384631825194" ignored="false" />
     <file path="/EditorMain.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1384626789192" ignored="false" />
-    <file path="/Level.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386922856085" ignored="false" />
-    <file path="/LevelHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386907742869" ignored="false" />
+    <file path="/Level.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386928214388" ignored="false" />
+    <file path="/LevelHandler.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386928554558" ignored="false" />
     <file path="/README.md" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1385160873496" ignored="false" />
-    <file path="/DropDownButton.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386608275568" ignored="false" />
+    <file path="/DropDownButton.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386928035250" ignored="false" />
     <file path="/Level1.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386491716814" ignored="false" />
     <file path="/Corgi.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386922471506" ignored="false" />
     <file path="/Path.java" changelist="184447ed-c406-4342-a209-56c57034a8fb" time="1386478953250" ignored="false" />
@@ -160,7 +160,7 @@
       <file leaf-file-name="Button.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/buttons/Button.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="52" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+            <state line="82" column="59" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,8 +169,10 @@
       <file leaf-file-name="Panel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="9" selection-start="5152" selection-end="5152" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="44" column="10" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,8 +180,19 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="61" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+            <state line="89" column="47" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/audio/AudioHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="26" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,20 +206,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level5.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Level5.java">
+      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="49" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+            <state line="102" column="25" selection-start="4194" selection-end="4194" vertical-scroll-proportion="-15.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Level.java">
+      <file leaf-file-name="Window.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="12" selection-start="6300" selection-end="6300" vertical-scroll-proportion="0.4383057">
-              <folding />
+            <state line="40" column="28" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,7 +229,7 @@
       <file leaf-file-name="DropDownButton.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/buttons/DropDownButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="79" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
+            <state line="32" column="35" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -229,11 +244,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelHandler.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LevelHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LevelHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="51" column="55" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.7605634">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,22 +265,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/mapping/TileBuffer.java" />
-        <option value="$PROJECT_DIR$/src/Path.java" />
-        <option value="$PROJECT_DIR$/src/buttons/DropDownButton.java" />
-        <option value="$PROJECT_DIR$/src/Level2.java" />
         <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/Level1.java" />
         <option value="$PROJECT_DIR$/src/Level5.java" />
         <option value="$PROJECT_DIR$/src/Level3.java" />
         <option value="$PROJECT_DIR$/src/Level4.java" />
         <option value="$PROJECT_DIR$/src/MenuStart.java" />
-        <option value="$PROJECT_DIR$/src/Panel.java" />
         <option value="$PROJECT_DIR$/src/textures/Textures.java" />
-        <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/Corgi.java" />
-        <option value="$PROJECT_DIR$/src/LevelHandler.java" />
+        <option value="$PROJECT_DIR$/src/Window.java" />
+        <option value="$PROJECT_DIR$/src/Panel.java" />
+        <option value="$PROJECT_DIR$/src/buttons/Button.java" />
+        <option value="$PROJECT_DIR$/src/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/buttons/DropDownButton.java" />
         <option value="$PROJECT_DIR$/src/Level.java" />
+        <option value="$PROJECT_DIR$/src/audio/AudioHandler.java" />
+        <option value="$PROJECT_DIR$/src/LevelHandler.java" />
       </list>
     </option>
   </component>
@@ -363,6 +380,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Corgi Academy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Corgi Academy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sounds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Corgi Academy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Corgi Academy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -405,11 +458,11 @@
       <recent name="C:\Users\deben_000\IdeaProjects\Bit Bit Bit\content\sounds" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\doppler\IdeaProjects\Corgi Academy\content\sounds" />
       <recent name="C:\Users\doppler\IdeaProjects\Corgi Academy\content\gui" />
       <recent name="$PROJECT_DIR$/content/gui" />
       <recent name="C:\Users\deben_000\IdeaProjects\CorgiAcademy\content\gui" />
       <recent name="C:\Users\deben_000\IdeaProjects\CorgiAcademy\content\graphics" />
-      <recent name="C:\Users\doppler\IdeaProjects\Corgi Academy\content\graphics" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -597,7 +650,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32405347" sideWeight="0.50800425" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2003058" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19954649" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7303754" order="3" side_tool="false" content_ui="tabs" />
@@ -676,11 +729,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/gui/img_level2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/gui/img_level1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -710,37 +758,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="9" selection-start="5152" selection-end="5152" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/buttons/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="52" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="61" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Level5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="49" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/textures/Textures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="73" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -752,24 +772,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+        <state line="40" column="28" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="10" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textures/Textures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="73" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/buttons/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="59" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="47" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/buttons/DropDownButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="79" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
+        <state line="32" column="35" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="12" selection-start="6300" selection-end="6300" vertical-scroll-proportion="0.4383057">
+        <state line="102" column="25" selection-start="4194" selection-end="4194" vertical-scroll-proportion="-15.6">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/AudioHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LevelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="55" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.7605634">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

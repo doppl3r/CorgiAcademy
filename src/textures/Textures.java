@@ -3,6 +3,11 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 
 public class Textures {
+    public Image start_img;
+    public Image start_button;
+    public Image back_button;
+    public Image gameOver;
+
     public Image overlay;
     public Image corgi;
     public Image textures;
@@ -25,6 +30,11 @@ public class Textures {
 		addResources();
 	}
 	public void addResources(){
+        start_img = new ImageIcon(this.getClass().getResource("/gui/start_img.png")).getImage();
+        start_button = new ImageIcon(this.getClass().getResource("/gui/start_button.png")).getImage();
+        back_button = new ImageIcon(this.getClass().getResource("/gui/back_button.png")).getImage();
+        gameOver = new ImageIcon(this.getClass().getResource("/gui/gameOver.png")).getImage();
+
         overlay = new ImageIcon(this.getClass().getResource("/graphics/overlay.png")).getImage();
         textures = new ImageIcon(this.getClass().getResource("/graphics/textures.png")).getImage();
         corgi = new ImageIcon(this.getClass().getResource("/graphics/corgi.png")).getImage();

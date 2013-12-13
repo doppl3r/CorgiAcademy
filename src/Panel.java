@@ -28,13 +28,15 @@ public class Panel extends JPanel implements KeyListener,
     private int hoverY;
     private Font font;
     BufferedImage buffered;
+    public MainMenu menu;
     public Game game;
 	private Timer t;
 	
 	public Panel(){
-        panelState = 1; //start at editor
+        panelState = 0; //start at editor
         pixelsPerSecond = 100; //very important for computer speed vs. graphic speed
         font = new Font ("Arial", Font.BOLD, 18);
+        menu = new MainMenu();
         game = new Game();
 
         //start music
@@ -70,7 +72,7 @@ public class Panel extends JPanel implements KeyListener,
         //draw components
         if (!paused){
             switch(panelState){
-                case(0): break;
+                case(0): menu.draw(g); break;
                 case(1): game.draw(g); break;
             }
         }
@@ -81,7 +83,7 @@ public class Panel extends JPanel implements KeyListener,
 		//update the components
         if (!paused){
             switch(panelState){
-                case(0): break;
+                case(0): menu.update(mod); break;
                 case(1): game.update(mod); break;
             }
         }
@@ -120,17 +122,27 @@ public class Panel extends JPanel implements KeyListener,
     public void mousePressed(MouseEvent e) { //down
         int x = e.getX();
         int y = e.getY();
-        game.down(x,y);
+        switch(panelState){
+            case(0): menu.down(x,y); break;
+            case(1): game.down(x,y); break;
+        }
     }
     public void mouseDragged(MouseEvent e) { //move
         int x = e.getX();
         int y = e.getY();
-        game.move(x,y);
+        switch(panelState){
+            case(0): menu.move(x,y); break;
+            case(1): game.move(x,y); break;
+        }
+
     }
     public void mouseReleased(MouseEvent e) { //up
         int x = e.getX();
         int y = e.getY();
-        game.up(x,y);
+        switch(panelState){
+            case(0): menu.up(x,y); break;
+            case(1): game.up(x,y); break;
+        }
     }
     public void mouseMoved(MouseEvent e) { //hover
         //update cursor
@@ -138,7 +150,10 @@ public class Panel extends JPanel implements KeyListener,
         int y = e.getY();
         hoverX=x;
         hoverY=y;
-        game.hover(x,y);
+        switch(panelState){
+            case(0): menu.hover(x,y); break;
+            case(1): game.hover(x,y); break;
+        }
     }
     //update FPS
     public void updateFPS() {

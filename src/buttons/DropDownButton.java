@@ -40,6 +40,7 @@ public class DropDownButton {
 
     }
     public boolean up(int x, int y){
+        boolean playAudio = true;
         if (options.get(0).up(x,y)){
             for (int i = 1; i < options.size(); i++) options.get(i).reveal();
             AudioHandler.SELECT.play();
@@ -48,10 +49,13 @@ public class DropDownButton {
         else {
             //check button actions here
             active = false;
-            if (options.get(1).up(x,y)) currIndex = 1;
-            if (options.get(2).up(x,y)) currIndex = 2;
-            if (options.get(3).up(x,y)) currIndex = 3;
-            if (options.get(4).up(x,y)) currIndex = 4;
+            if (options.get(0).up(x,y)) {}
+            else if (options.get(1).up(x,y)) currIndex = 1;
+            else if (options.get(2).up(x,y)) currIndex = 2;
+            else if (options.get(3).up(x,y)) currIndex = 3;
+            else if (options.get(4).up(x,y)) currIndex = 4;
+            else playAudio = false;
+            if (playAudio) AudioHandler.SELECT.play();
             options.getFirst().setImage(options.get(currIndex).getImage());
             for (int i = 1; i < options.size(); i++) options.get(i).hide();
 

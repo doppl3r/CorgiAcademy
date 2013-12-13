@@ -12,6 +12,7 @@ public class Level {
     SpriteSheet gui;
     LinkedList<DropDownButton> options;
     LinkedList<specialText> text;
+    Button back;
     Button play;
     Button next;
     Button reset;
@@ -29,6 +30,7 @@ public class Level {
         //java version
         options = new LinkedList<DropDownButton>();
         text = new LinkedList<specialText>();
+        back = new Button(Window.tt.back_button, 12, 12,1,2,false,0);
         play = new Button(Window.tt.play,520,382,1,2,false,0);
         next = new Button(Window.tt.next,520,382,1,2,false,0);
         reset = new Button(Window.tt.reset,520,382,1,2,false,0);
@@ -36,6 +38,7 @@ public class Level {
         corgi = new Corgi(blockSize);
         terrain = new SpriteSheet(Window.tt.textures,2,2,0.0);
         overlay = new SpriteSheet(Window.tt.overlay,1,1,0);
+        back.resize(0.25);
     }
     public void draw(Graphics2D g){
         tileBuffer.draw(g,terrain);
@@ -50,6 +53,7 @@ public class Level {
         for (int i = options.size()-1; i >= 0 ; i--){
             options.get(i).draw(g);
         }
+        back.draw(g);
         play.draw(g);
     }
     public void update(double mod){
@@ -147,12 +151,14 @@ public class Level {
         for (int i=0; i < options.size(); i++){
             options.get(i).down(x, y);
         }
+        back.down(x,y);
         play.down(x,y);
     }
     public void move(int x, int y){
         for (int i=0; i < options.size(); i++){
             options.get(i).move(x, y);
         }
+        back.move(x,y);
         play.move(x,y);
     }
     public void up(int x, int y){
@@ -169,6 +175,11 @@ public class Level {
                 }
             }
         }
+        if (back.up(x,y)){
+            AudioHandler.SELECT.play();
+            Window.panel.setPanelState(0);
+            Window.panel.menu.setCurrentMenu(0);
+        }
         if (play.up(x,y)){
             playLevel = true;
             AudioHandler.SELECT.play();
@@ -178,6 +189,7 @@ public class Level {
         for (int i=0; i < options.size(); i++){
             options.get(i).hover(x, y);
         }
+        back.hover(x,y);
         play.hover(x,y);
     }
     public boolean playLevel(){ return playLevel; }

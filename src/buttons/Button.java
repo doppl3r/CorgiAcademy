@@ -51,7 +51,7 @@ public class Button {
 		sprite.resize(newWidth, newHeight);
 		sprite.update(x, y);
 	}
-	public void resize(int ratio){
+	public void resize(double ratio){
 		xSize *= ratio;
 		ySize *= ratio;
 		sprite.resize((int)xSize, (int)ySize);
